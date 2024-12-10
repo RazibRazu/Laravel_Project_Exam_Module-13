@@ -20,7 +20,7 @@ class ProfileController extends Controller
             'age' => $age,
         ];
 
-        // Create a cookie
+        // Create a cookie 
         $cookie = cookie(
             'access_token',
             '123-XYZ',
